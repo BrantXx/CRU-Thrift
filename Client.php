@@ -21,7 +21,7 @@ $loader->register();
 
 try {
 
-  $array_of_ints = array("Volvo", "BMW", "Toyota");
+  $array_of_ints = array(1,5,10,15);
 
   $socket	= new TSocket('localhost', 9090);
   $transport	= new TBufferedTransport($socket, 1024, 1024);
